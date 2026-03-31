@@ -1,5 +1,5 @@
 from airflow.sdk import dag, task
-from airflow.operators.bash.BashOperator import BashOperator
+#from airflow.operators.bash_operator import BashOperator
 
 
 @dag
@@ -17,18 +17,18 @@ def operators_dag():
     def bash_task_modern() -> str:
         return "echo https://airflow.apache.org/"
     
-    bash_task_old_school = BashOperator(
+    #bash_task_old_school = BashOperator(
         task_id="bash_task_old_school",
         bash_command="echo https://airflow.apache.org/"
-    )
+    #)
 
     # Defining task dependencies
     first = first_task()
     second = second_task()
     bash_modern = bash_task_modern()
-    bash_old_school = bash_task_old_school
+    #bash_old_school = bash_task_old_school
 
 
-    first >> second >> bash_modern >> bash_old_school
+    first >> second >> bash_modern # >> bash_old_school
 
 operators_dag()
