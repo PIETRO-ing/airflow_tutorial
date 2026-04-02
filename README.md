@@ -16,3 +16,14 @@ The dags/ folder contains a series of DAGs, each demonstrating a specific Airflo
 - **asset_13.py**: Asset-based DAG example
 - **14_asset_dependent.py**: Asset dependency management
 - **dag_orchestrate_1.py**, dag_orchestrate_2.py, dag_orchestrate_parent.py: Orchestrating multiple DAGs
+
+# Key Concepts Covered
+
+- **DAG Authoring**: How to define and structure DAGs
+- **Operators**: BashOperator, PythonOperator, and more
+- **Task Dependencies**: Setting up task order and parallelism
+- **XComs**: Passing data between tasks
+- **Branching**: Conditional task execution
+- **Scheduling**: Using presets, cron, and custom intervals
+- **Asset Dependencies**: Managing dependencies between data assets
+- **DAG Orchestration**: Parent/child DAG relationships
