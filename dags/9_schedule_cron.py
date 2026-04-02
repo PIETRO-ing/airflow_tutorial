@@ -6,8 +6,8 @@ from airflow.timetables.trigger import CronTriggerTimetable
 @dag(
         dag_id="cron_schedule_dag",
         start_date= datetime(year=2026, month=4, day=2, tz='CET'),
-        schedule=CronTriggerTimetable("35 16 * * MON-FRI", timezone='CET'),
-        end_date= datetime(year=2026, month=4, day=19, tz='CET'),
+        schedule=CronTriggerTimetable("55-59/5 16 * * MON-FRI", timezone='CET'),
+        end_date= datetime(year=2026, month=4, day=2, tz='CET'),
         is_paused_upon_creation=False,
         catchup=True
 )
