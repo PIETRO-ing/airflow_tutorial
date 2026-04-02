@@ -30,3 +30,5 @@
 {"timestamp":"2026-04-02T15:20:24.585875Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/10__schedule_delta.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2026-04-02T15:20:54.848399Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/10__schedule_delta.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2026-04-02T15:21:25.102185Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/10__schedule_delta.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-02T15:21:55.445901Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/10__schedule_delta.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-02T15:22:25.670076Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/10__schedule_delta.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}

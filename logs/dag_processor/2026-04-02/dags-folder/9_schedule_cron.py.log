@@ -101,3 +101,6 @@
 {"timestamp":"2026-04-02T15:19:56.446819Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/9_schedule_cron.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2026-04-02T15:20:26.734060Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/9_schedule_cron.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2026-04-02T15:20:56.963139Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/9_schedule_cron.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-02T15:21:27.199528Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/9_schedule_cron.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-02T15:21:57.545662Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/9_schedule_cron.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-02T15:22:27.765238Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/9_schedule_cron.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
