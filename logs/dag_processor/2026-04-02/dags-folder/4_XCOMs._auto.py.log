@@ -329,3 +329,11 @@
 {"timestamp":"2026-04-02T12:24:11.492724Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/4_XCOMs._auto.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2026-04-02T12:24:41.643130Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/4_XCOMs._auto.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2026-04-02T12:25:11.774424Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/4_XCOMs._auto.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-02T12:25:41.939600Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/4_XCOMs._auto.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-02T12:26:12.033910Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/4_XCOMs._auto.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-02T12:26:43.151439Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/4_XCOMs._auto.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-02T12:27:13.400559Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/4_XCOMs._auto.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-02T12:27:43.777127Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/4_XCOMs._auto.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-02T12:28:14.754926Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/4_XCOMs._auto.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-02T12:28:44.989868Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/4_XCOMs._auto.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-02T12:29:15.163789Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/4_XCOMs._auto.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
