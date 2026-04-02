@@ -40,7 +40,7 @@ def xcoms_dag_manual_kwargs():
     second = second_task()
     third = third_task()
 
-    first_task >> second_task >> third_task
+    first >> second >> third
    
 
 xcoms_dag_manual_kwargs()

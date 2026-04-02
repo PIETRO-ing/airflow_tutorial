@@ -1,13 +1,17 @@
 from airflow.sdk import dag, task
 from pendulum import datetime
+from airflow.timetables.trigger import CronTriggerTimetable
+
 
 @dag(
-        dag_id="first_schedule_dag",
+        dag_id="cron_schedule_dag",
         start_date= datetime(year=2026, month=4, day=2, tz='CET'),
-        schedule="@daily",
-        is_paused_upon_creation=False
+        schedule=CronTriggerTimetable("35 16 * * MON-FRI", timezone='CET'),
+        end_date= datetime(year=2026, month=4, day=19, tz='CET'),
+        is_paused_upon_creation=False,
+        catchup=True
 )
-def first_schedule_dag():
+def cron_schedule_dag():
     
     @task.python
     def first_task():
@@ -29,4 +33,4 @@ def first_schedule_dag():
 
     first >> second >> third
  
-first_schedule_dag()
+cron_schedule_dag()
