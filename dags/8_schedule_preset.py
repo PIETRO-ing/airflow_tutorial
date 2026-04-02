@@ -2,7 +2,7 @@ from airflow.sdk import dag, task
 from pendulum import datetime
 
 @dag(
-        dag_id="first_dag",
+        dag_id="first_schedule_dag",
         start_date= datetime(year=2026, month=4, day=2, tz='CET'),
         schedule="@daily",
         is_paused_upon_creation=False
