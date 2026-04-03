@@ -4,7 +4,7 @@ from airflow.sdk import dag, task
 from airflow.operators.trigger_dagrun import TriggerDagRunOperator # pyright: ignore[reportMissingImports]
 
 @dag
-def first_orchestrator_dag():
+def dag_orchestrate_parent():
 
     trigger_first_dag = TriggerDagRunOperator(
         task_id = "trigger_first_orchestrator_dag",
@@ -21,4 +21,4 @@ def first_orchestrator_dag():
 
     trigger_first_dag >> trigger_second_dag
 
-first_orchestrator_dag()
+dag_orchestrate_parent()
