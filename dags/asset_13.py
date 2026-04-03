@@ -10,7 +10,7 @@ import os
 def fetch_data(self):
 
     # Ensure the directory exists 
-    os.makedirs(os.path.dirname(self.uri, exist_ok=True))
+    os.makedirs(os.path.dirname(self.uri), exist_ok=True)
     
     # Simulate data fetching by write to a file
     with open(self.uri, 'w') as f:
