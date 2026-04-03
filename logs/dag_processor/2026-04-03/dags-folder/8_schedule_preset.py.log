@@ -837,3 +837,5 @@
 {"timestamp":"2026-04-03T18:33:04.212980Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/8_schedule_preset.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2026-04-03T18:33:34.390943Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/8_schedule_preset.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2026-04-03T18:34:04.534886Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/8_schedule_preset.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-03T18:34:35.447881Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/8_schedule_preset.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-03T18:35:06.391364Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/8_schedule_preset.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
